@@ -1,0 +1,43 @@
+.botao {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: -5px 6px #761919;
+  border: 3px solid #000000;
+  color: #ff0000;
+  font-weight: 400;
+  font-size: 1em;
+  transition: all ease-in 0.2s;
+  border-radius: 50px;
+}
+
+.botao:hover,
+.botao:focus {
+  background: #010404;
+  color: #6b0000;
+  border-color: #e00000;
+  box-shadow: none;
+}
+
+
+.principal {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgs {
+  width: 30%;
+  height: 30%;
+}
+.video {
+  width: 40%;
+  height: 40%;
+}
+#img0 {
+  width: 30%;
+  height: 30%;
+  margin-left: 37%;
+}
